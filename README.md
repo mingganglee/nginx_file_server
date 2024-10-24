@@ -6,13 +6,13 @@
 
 ## Install nginx
 
-```shell
+```bash
 sudo apt install nginx
 ```
 
 ## How to use
 
-```shell
+```bash
 # create directory
 sudo mkdir /nginx_files
 sudo chmod 777 /nginx_files
@@ -27,7 +27,7 @@ sudo systemctl reload nginx
 
 ## Nginx operation
 
-```shell
+```bash
 # check nginx settings
 sudo nginx -t
 
@@ -42,7 +42,7 @@ sudo systemctl stop nginx
 
 ## Upload file
 
-```shell
+```bash
 # create test.txt file
 echo "test" > test.txt
 
